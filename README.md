@@ -1,14 +1,14 @@
 # LPC1769-PWM
 Este repositorio contiene los drivers para poder utilizar el periférico PWM del LPC1769 (Cortex M3 - ARM). 
-Se deben agregar en la carpeta lpc1769: 
-chip/inc :
-|En chip_lpc175x_6x.h : 
-|Se agrega y define las direcciones del PWM.
-|En pwm1_17xx_40xx.h:
-|Se define la estructura de los registros del PWM, también macros utiles para el driver.
-chip/src
-|En pwm1_17xx_40xx.c:
-|Funciones para configurar el PWM.
+<br />Se deben agregar en la carpeta lpc1769: 
+<br />chip/inc :
+<br />|En chip_lpc175x_6x.h : 
+<br />|Se agrega y define las direcciones del PWM.
+<br />|En pwm1_17xx_40xx.h:
+<br />|Se define la estructura de los registros del PWM, también macros utiles para el driver.
+<br />chip/src
+<br />|En pwm1_17xx_40xx.c:
+<br />|Funciones para configurar el PWM.
 
 
 
